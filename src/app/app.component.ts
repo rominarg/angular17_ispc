@@ -6,16 +6,13 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { HomeComponent } from './components/pages/home/home/home.component';
 
 
-
-
-
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet , NavComponent, HomeComponent, FooterComponent],
 
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'angular17-ispc';
